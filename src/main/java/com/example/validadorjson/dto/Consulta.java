@@ -11,6 +11,8 @@ public record Consulta (
      String finalidadTecnologiaSalud,
      String causaMotivoAtencion,
      String codDiagnosticoPrincipal,
+    String codDiagnosticoRelacionado1,
+    String codDiagnosticoRelacionado2,
      String tipoDiagnosticoPrincipal,
      String tipoDocumentoIdentificacion,
      String numDocumentoIdentificacion,

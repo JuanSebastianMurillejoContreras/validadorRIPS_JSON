@@ -27,6 +27,30 @@ public class ValidadorService {
     private static final DateTimeFormatter FA_FMT_MIN = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
     private static final DateTimeFormatter FA_FMT_SEC = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
+    // Lista de diagnósticos Z30x que requieren finalidad "19"
+    private static final Set<String> DIAGNOSTICOS_PLANIFICACION = Set.of(
+            "Z300","Z301","Z302","Z303","Z304","Z305","Z308","Z309",
+            "Z310","Z311","Z312","Z313","Z314","Z315","Z316","Z318","Z319"
+    );
+
+    // Lista de diagnósticos que requieren finalidad "23"
+    private static final Set<String> DIAGNOSTICOS_PRENATAL = Set.of(
+            "Z320","Z321","Z33X","Z340","Z348","Z349","Z350","Z351",
+            "Z352","Z353","Z354","Z355","Z356","Z357","Z358","Z359",
+            "Z360","Z361","Z362","Z363","Z364","Z365","Z368","Z369"
+    );
+    // Lista de diagnósticos que deben ser los principales segun la nota técnica.
+    private static final Set<String> DIAGNOSTICOS_VALIDOS = Set.of(
+            "Z000","Z001","Z002","Z003","Z012",
+            "Z123","Z125","Z299","Z300","Z304",
+            "Z305","Z308","Z309","Z316","Z318",
+            "Z321","Z340","Z348","Z349","Z350",
+            "Z351","Z352","Z353","Z354","Z355",
+            "Z356","Z357","Z358","Z359","Z390",
+            "Z391","Z392","Z762"
+    );
+
+
     /**
      * Valida la factura completa y devuelve un ByteArrayResource con el contenido TXT para descargar.
      * También guarda el contenido en memoria (erroresPorFactura) y opcionalmente en disco.
@@ -98,28 +122,37 @@ public class ValidadorService {
                     String fechaAt = Optional.ofNullable(c.fechaInicioAtencion()).orElse("");
                     String dateKey = fechaAt.length() >= 10 ? fechaAt.substring(0, 10) : fechaAt;
 
-                    String key = pacienteDocumento + "_" + safeString(c.codConsulta()) + "_" + dateKey;
+                    String key = pacienteDocumento + "_" +
+                            safeString(c.codConsulta()) + "_" +
+                            safeString(c.finalidadTecnologiaSalud()) + "_" +
+                            safeString(c.codDiagnosticoPrincipal()) + "_" +
+                            dateKey;
+
                     if (!consultasUnicas.add(key)) {
                         registrarError(errores, consecutivoUsuario,
-                                "Consulta repetida",
+                                "Consulta duplicada",
                                 fechaAt,
                                 c.codConsulta(),
-                                "El paciente tiene otra consulta con el mismo código en la misma fecha.");
+                                "El paciente tiene otra consulta con el mismo código, finalidad y diagnóstico en la misma fecha.");
                     }
 
-                    /* numAutorizacion vacía
-                    if (isBlank(c.numAutorizacion())) {
-                        registrarError(errores, consecutivoUsuario,
-                                "Consulta sin autorización",
-                                fechaAt,
-                                c.codConsulta(),
-                                "Campo numAutorizacion está vacío.");
-                    }*/
-
-                    // Validaciones por contenido: diagnóstico, finalidad, documento vs edad
                     int edad = calcularEdadEnAtencionSafe(usuario.fechaNacimiento(), fechaAt, errores, consecutivoUsuario);
-                    //validarDiagnosticoYFinalidadEnConsulta(c, usuario, edad, fechaAt, errores);
                     validarDocumentoSegunEdad(usuario, fechaAt, edad, errores);
+
+                    // ✅ Validación Diagnóstico vs Finalidad
+                    validarDiagnosticoVsFinalidadEnConsulta(c, usuario, errores);
+
+                    // ✅ Validación Diagnóstico Principal vs Relacionados
+                    validarDiagnosticoPrincipalVsRelacionados(
+                            c.codDiagnosticoPrincipal(),
+                            c.codDiagnosticoRelacionado1(),
+                            c.codDiagnosticoRelacionado2(),
+                            consecutivoUsuario,
+                            errores,
+                            "Consulta",
+                            fechaAt,
+                            c.codConsulta()
+                    );
 
                 } catch (Exception ex) {
                     registrarError(errores, consecutivoUsuario, "Error lectura consulta",
@@ -130,6 +163,7 @@ public class ValidadorService {
             }
         }
 
+
         // Procedimientos
         if (usuario.servicios().procedimientos() != null) {
             for (Procedimiento p : usuario.servicios().procedimientos()) {
@@ -137,26 +171,26 @@ public class ValidadorService {
                     String fechaAt = Optional.ofNullable(p.fechaInicioAtencion()).orElse("");
                     String dateKey = fechaAt.length() >= 10 ? fechaAt.substring(0, 10) : fechaAt;
 
-                    String key = pacienteDocumento + "_" + safeString(p.codProcedimiento()) + "_" + dateKey;
+                    String key = pacienteDocumento + "_" +
+                            safeString(p.codProcedimiento()) + "_" +
+                            safeString(p.finalidadTecnologiaSalud()) + "_" +
+                            safeString(p.codDiagnosticoPrincipal()) + "_" +
+                            dateKey;
+
                     if (!procedimientosUnicos.add(key)) {
                         registrarError(errores, consecutivoUsuario,
-                                "Procedimiento repetido",
+                                "Procedimiento duplicado",
                                 fechaAt,
                                 p.codProcedimiento(),
-                                "El paciente tiene otro procedimiento con el mismo código en la misma fecha.");
+                                "El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. "
+                                        + "(Consecutivo procedimiento: " + p.consecutivo() + ")");
                     }
 
-                   /* if (isBlank(p.numAutorizacion())) {
-                        registrarError(errores, consecutivoUsuario,
-                                "Procedimiento sin autorización",
-                                fechaAt,
-                                p.codProcedimiento(),
-                                "Campo numAutorizacion está vacío.");
-                    }*/
-
                     int edad = calcularEdadEnAtencionSafe(usuario.fechaNacimiento(), fechaAt, errores, consecutivoUsuario);
-                    //validarDiagnosticoYFinalidadEnProcedimiento(p, usuario, edad, fechaAt, errores);
                     validarDocumentoSegunEdad(usuario, fechaAt, edad, errores);
+
+                    // ✅ Validación Diagnóstico vs Finalidad
+                    validarDiagnosticoVsFinalidadEnProcedimiento(p, usuario, errores);
 
                 } catch (Exception ex) {
                     registrarError(errores, consecutivoUsuario, "Error lectura procedimiento",
@@ -168,52 +202,12 @@ public class ValidadorService {
         }
     }
 
+
     /* --------------------------- Validaciones específicas ---------------------------
 
-    private void validarDiagnosticoYFinalidadEnConsulta(Consulta c, Usuario usuario, int edad, String fechaAtencion, StringBuilder errores) {
-        int consecutivoUsuario = usuario.consecutivo();
+    (Se conservan tus métodos comentados por si quieres recuperarlos en el futuro)
+     */
 
-        // Diagnóstico: debe empezar por Z
-        String codDiag = Optional.ofNullable(c.codDiagnosticoPrincipal()).orElse("");
-        if (!codDiag.startsWith("Z")) {
-            String suger = sugerirDiagnostico(edad);
-            String msg = "Usuario consecutivo " + consecutivoUsuario +
-                    " -> Diagnóstico inválido en Consulta: " + codDiag +
-                    ". Sugerencia: " + suger +
-                    " porque el usuario a la fecha de la atención (" + fechaAtencion + ") tiene " + edad + " años.";
-            appendError(errores, msg);
-        }
-
-        // Finalidad debe ser "11"
-        if (!"11".equals(Optional.ofNullable(c.finalidadTecnologiaSalud()).orElse(""))) {
-            String msg = "Usuario consecutivo " + consecutivoUsuario +
-                    " -> Finalidad inválida en Consulta: " + Optional.ofNullable(c.finalidadTecnologiaSalud()).orElse("") +
-                    ". Se espera '11'. Fecha: " + fechaAtencion;
-            appendError(errores, msg);
-        }
-    }
-
-    private void validarDiagnosticoYFinalidadEnProcedimiento(Procedimiento p, Usuario usuario, int edad, String fechaAtencion, StringBuilder errores) {
-        int consecutivoUsuario = usuario.consecutivo();
-
-        /*String codDiag = Optional.ofNullable(p.codDiagnosticoPrincipal()).orElse("");
-        if (!codDiag.startsWith("Z")) {
-            String suger = sugerirDiagnostico(edad);
-            String msg = "Usuario consecutivo " + consecutivoUsuario +
-                    " -> Diagnóstico inválido en Procedimiento: " + codDiag +
-                    ". Sugerencia: " + suger +
-                    " porque el usuario a la fecha de la atención (" + fechaAtencion + ") tiene " + edad + " años.";
-            appendError(errores, msg);
-        }
-
-        if (!"11".equals(Optional.ofNullable(p.finalidadTecnologiaSalud()).orElse(""))) {
-            String msg = "Usuario consecutivo " + consecutivoUsuario +
-                    " -> Finalidad inválida en Procedimiento: " + Optional.ofNullable(p.finalidadTecnologiaSalud()).orElse("") +
-                    ". Se espera '11'. Fecha: " + fechaAtencion;
-            appendError(errores, msg);
-        }
-    }
- */
     /**
      * Reglas para validar el tipo de documento frente a la edad (años/días).
      */
@@ -366,5 +360,123 @@ public class ValidadorService {
         return "No aplica (edad fuera del rango 0-17 años)";
     }
 
+    /**
+     * Valida que si el diagnóstico es de la serie Z30x (planificación familiar),
+     * la finalidad de la tecnología de salud sea "19".
+     * Versión para Consulta.
+     */
+    private void validarDiagnosticoVsFinalidadEnConsulta(Consulta c, Usuario usuario, StringBuilder errores) {
+        if (c == null || usuario == null) return;
+
+        int consecutivoUsuario = usuario.consecutivo();
+        String diag = Optional.ofNullable(c.codDiagnosticoPrincipal()).orElse("").trim().toUpperCase(Locale.ROOT);
+        String finalidad = Optional.ofNullable(c.finalidadTecnologiaSalud()).orElse("").trim();
+
+        if (DIAGNOSTICOS_PLANIFICACION.contains(diag)) {
+            if (!"19".equals(finalidad)) {
+                String msg = "Usuario consecutivo " + consecutivoUsuario +
+                        " -> Diagnóstico " + diag +
+                        " corresponde a planificación familiar, por lo que la finalidad debe ser '19'. " +
+                        "Actualmente: '" + finalidad + "'. Fecha atención: " +
+                        Optional.ofNullable(c.fechaInicioAtencion()).orElse("N/A");
+                appendError(errores, msg);
+            }
+        }
+
+        if (DIAGNOSTICOS_PRENATAL.contains(diag)) {
+            if (!"23".equals(finalidad)) {
+                String msg = "Usuario consecutivo " + consecutivoUsuario +
+                        " -> Diagnóstico " + diag +
+                        " corresponde a prental, por lo que la finalidad debe ser '19'. " +
+                        "Actualmente: '" + finalidad + "'. Fecha atención: " +
+                        Optional.ofNullable(c.fechaInicioAtencion()).orElse("N/A");
+                appendError(errores, msg);
+            }
+        }
+    }
+
+    /**
+     * Misma validación pero para Procedimiento.
+     */
+    private void validarDiagnosticoVsFinalidadEnProcedimiento(Procedimiento p, Usuario usuario, StringBuilder errores) {
+        if (p == null || usuario == null) return;
+
+        int consecutivoUsuario = usuario.consecutivo();
+        String diag = Optional.ofNullable(p.codDiagnosticoPrincipal()).orElse("").trim().toUpperCase(Locale.ROOT);
+        String finalidad = Optional.ofNullable(p.finalidadTecnologiaSalud()).orElse("").trim();
+
+        if (DIAGNOSTICOS_PLANIFICACION.contains(diag)) {
+            if (!"19".equals(finalidad)) {
+                String msg = "Usuario consecutivo " + consecutivoUsuario +
+                        " -> Diagnóstico " + diag +
+                        " en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. " +
+                        "Actualmente: '" + finalidad + "'. Fecha atención: " +
+                        Optional.ofNullable(p.fechaInicioAtencion()).orElse("N/A");
+                appendError(errores, msg);
+            }
+        }
+
+        if (DIAGNOSTICOS_PRENATAL.contains(diag)) {
+            if (!"23".equals(finalidad)) {
+                String msg = "Usuario consecutivo " + consecutivoUsuario +
+                        " -> Diagnóstico " + diag +
+                        " corresponde a prental, por lo que la finalidad debe ser '19'. " +
+                        "Actualmente: '" + finalidad + "'. Fecha atención: " +
+                        Optional.ofNullable(p.fechaInicioAtencion()).orElse("N/A");
+                appendError(errores, msg);
+            }
+        }
+    }
+
+    private void validarDiagnosticoPrincipalVsRelacionados(
+            String codPrincipal,
+            String codRelacionado1,
+            String codRelacionado2,
+            int consecutivoUsuario,
+            StringBuilder errores,
+            String tipoRegistro, // "Consulta" o "Procedimiento"
+            String fechaAt,
+            String codigo
+    ) {
+        String principal = safeString(codPrincipal);
+        String rel1 = safeString(codRelacionado1);
+        String rel2 = safeString(codRelacionado2);
+
+        // Caso 1: Principal está en la lista válida -> todo bien
+        if (DIAGNOSTICOS_VALIDOS.contains(principal)) {
+            return;
+        }
+
+        // Caso 2: Principal no es válido, pero Relacionado1 sí lo es
+        if (DIAGNOSTICOS_VALIDOS.contains(rel1)) {
+            registrarError(errores, consecutivoUsuario,
+                    tipoRegistro + " Diagnóstico",
+                    fechaAt,
+                    codigo,
+                    "El diagnóstico principal '" + principal +
+                            "' no corresponde. Se debe mover el relacionado1 ('" + rel1 + "') a principal.");
+            return;
+        }
+
+        // Caso 3: Principal no es válido, pero Relacionado2 sí lo es
+        if (DIAGNOSTICOS_VALIDOS.contains(rel2)) {
+            registrarError(errores, consecutivoUsuario,
+                    tipoRegistro + " Diagnóstico",
+                    fechaAt,
+                    codigo,
+                    "El diagnóstico principal '" + principal +
+                            "' no corresponde. Se debe mover el relacionado2 ('" + rel2 + "') a principal.");
+            return;
+        }
+
+        // Caso 4: Ninguno corresponde -> advertencia
+        registrarError(errores, consecutivoUsuario,
+                tipoRegistro + " Diagnóstico",
+                fechaAt,
+                codigo,
+                "Ninguno de los diagnósticos (principal: '" + principal +
+                        "', rel1: '" + rel1 + "', rel2: '" + rel2 +
+                        "') corresponde a la lista válida.");
+    }
 
 }
