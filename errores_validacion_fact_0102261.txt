@@ -1,0 +1,70 @@
+Validación factura: 0102261
+==========================================================================
+Usuario consecutivo 22 -> Procedimiento repetido en 2025-04-09 07:04 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 29 -> Procedimiento repetido en 2025-04-04 14:24 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 30 -> Procedimiento repetido en 2025-04-07 09:02 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 30 -> Procedimiento repetido en 2025-04-28 10:10 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 33 -> Procedimiento repetido en 2025-04-25 10:43 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 70 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 82 -> Procedimiento repetido en 2025-04-14 16:37 con código 232200. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 101 -> Procedimiento repetido en 2025-04-29 08:14 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 101 -> Procedimiento repetido en 2025-04-29 08:14 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 150 -> Tipo de documento no coincide con la edad (6 años, 2530 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 185 -> Procedimiento repetido en 2025-04-07 08:00 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 185 -> Procedimiento repetido en 2025-04-10 09:53 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 220 -> Procedimiento repetido en 2025-04-02 07:04 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 251 -> Tipo de documento no coincide con la edad (6 años, 2529 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 251 -> Tipo de documento no coincide con la edad (6 años, 2529 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 251 -> Tipo de documento no coincide con la edad (6 años, 2529 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 251 -> Tipo de documento no coincide con la edad (6 años, 2529 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 256 -> Tipo de documento no coincide con la edad (6 años, 2509 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 256 -> Tipo de documento no coincide con la edad (6 años, 2533 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 256 -> Tipo de documento no coincide con la edad (6 años, 2533 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 256 -> Tipo de documento no coincide con la edad (6 años, 2533 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 302 -> Procedimiento repetido en 2025-04-08 10:10 con código 903862. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 303 -> Procedimiento repetido en 2025-04-16 07:55 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 307 -> Tipo de documento no coincide con la edad (17 años, 6537 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 307 -> Tipo de documento no coincide con la edad (17 años, 6538 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 307 -> Tipo de documento no coincide con la edad (17 años, 6538 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 307 -> Procedimiento repetido en 2025-04-04 11:56 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 307 -> Tipo de documento no coincide con la edad (17 años, 6538 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 309 -> Procedimiento repetido en 2025-04-29 18:02 con código 902209. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 347 -> Procedimiento repetido en 2025-04-28 10:45 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 347 -> Procedimiento repetido en 2025-04-28 10:45 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 347 -> Procedimiento repetido en 2025-04-28 10:45 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 398 -> Tipo de documento no coincide con la edad (7 años, 2590 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 410 -> Procedimiento repetido en 2025-04-25 08:48 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 419 -> Procedimiento repetido en 2025-04-23 14:59 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 419 -> Procedimiento repetido en 2025-04-23 14:59 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 424 -> Procedimiento repetido en 2025-04-08 15:56 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 455 -> Tipo de documento no coincide con la edad (7 años, 2579 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 580 -> Procedimiento repetido en 2025-04-21 09:25 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 584 -> Procedimiento repetido en 2025-04-08 09:51 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 599 -> Procedimiento repetido en 2025-04-24 07:21 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 618 -> Procedimiento repetido en 2025-04-21 15:28 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 618 -> Procedimiento repetido en 2025-04-29 07:01 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 619 -> Tipo de documento no coincide con la edad (8 años, 3213 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 645 -> Procedimiento repetido en 2025-04-02 16:17 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 650 -> Procedimiento repetido en 2025-04-03 07:40 con código 903815. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 651 -> Procedimiento repetido en 2025-04-23 07:22 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 653 -> Procedimiento repetido en 2025-04-22 14:18 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 668 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 697 -> Procedimiento repetido en 2025-04-25 06:05 con código 903816. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 699 -> Procedimiento repetido en 2025-04-28 12:13 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 710 -> Procedimiento repetido en 2025-04-15 10:43 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 754 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 754 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 877 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 877 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 877 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 877 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 877 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 877 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 976 -> Procedimiento repetido en 2025-04-03 07:01 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 976 -> Procedimiento repetido en 2025-04-03 07:01 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 1041 -> Procedimiento repetido en 2025-04-15 08:21 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 1054 -> Procedimiento repetido en 2025-04-22 07:55 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 1058 -> Consulta repetida en 2025-04-21 09:23 con código 890303. El paciente tiene otra consulta con el mismo código en la misma fecha.
+Usuario consecutivo 1058 -> Procedimiento repetido en 2025-04-21 09:23 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 1058 -> Procedimiento repetido en 2025-04-21 09:23 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 1066 -> Procedimiento repetido en 2025-04-23 07:03 con código 232102. El paciente tiene otro procedimiento con el mismo código en la misma fecha.

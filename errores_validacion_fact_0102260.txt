@@ -1,0 +1,49 @@
+Validación factura: 0102260
+==========================================================================
+Usuario consecutivo 26 -> Procedimiento repetido en 2025-04-29 08:40 con código 906039. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 26 -> Procedimiento repetido en 2025-04-29 08:40 con código 906249. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 33 -> Tipo de documento no coincide con la edad (17 años, 6541 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 33 -> Tipo de documento no coincide con la edad (17 años, 6541 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 41 -> Consulta repetida en 2025-04-14 10:16 con código 890201. El paciente tiene otra consulta con el mismo código en la misma fecha.
+Usuario consecutivo 43 -> Consulta repetida en 2025-04-06 14:35 con código 890201. El paciente tiene otra consulta con el mismo código en la misma fecha.
+Usuario consecutivo 54 -> Procedimiento repetido en 2025-04-21 14:21 con código 906249. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 54 -> Procedimiento repetido en 2025-04-21 14:21 con código 906039. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 75 -> Procedimiento repetido en 2025-04-21 10:17 con código 906249. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 75 -> Procedimiento repetido en 2025-04-21 10:17 con código 906039. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 80 -> Tipo de documento no coincide con la edad (6 años, 2532 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 94 -> Procedimiento repetido en 2025-04-21 12:50 con código 906039. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 94 -> Procedimiento repetido en 2025-04-21 12:50 con código 906249. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 100 -> Consulta repetida en 2025-04-03 14:02 con código 890203. El paciente tiene otra consulta con el mismo código en la misma fecha.
+Usuario consecutivo 100 -> Procedimiento repetido en 2025-04-03 14:02 con código 990203. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 100 -> Procedimiento repetido en 2025-04-23 09:59 con código 906249. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 100 -> Procedimiento repetido en 2025-04-23 09:59 con código 906039. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 122 -> Tipo de documento no coincide con la edad (8 años, 3213 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 122 -> Tipo de documento no coincide con la edad (8 años, 3213 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 138 -> Procedimiento repetido en 2025-04-30 15:01 con código 906249. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 138 -> Procedimiento repetido en 2025-04-30 15:41 con código 906039. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 159 -> Consulta repetida en 2025-04-15 08:03 con código 890301. El paciente tiene otra consulta con el mismo código en la misma fecha.
+Usuario consecutivo 160 -> Procedimiento repetido en 2025-04-23 08:04 con código 997002. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 179 -> Tipo de documento no coincide con la edad (7 años, 2591 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 179 -> Tipo de documento no coincide con la edad (7 años, 2591 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 179 -> Tipo de documento no coincide con la edad (7 años, 2591 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 182 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 182 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 182 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 182 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 182 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 182 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 182 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 233 -> Procedimiento repetido en 2025-04-22 07:01 con código 990203. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 235 -> Consulta repetida en 2025-04-14 09:24 con código 890201. El paciente tiene otra consulta con el mismo código en la misma fecha.
+Usuario consecutivo 264 -> Tipo de documento no coincide con la edad (6 años, 2533 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 264 -> Tipo de documento no coincide con la edad (6 años, 2533 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 264 -> Tipo de documento no coincide con la edad (6 años, 2533 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 281 -> Procedimiento repetido en 2025-04-21 10:39 con código 997002. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 336 -> Procedimiento repetido en 2025-04-01 14:40 con código 990204. El paciente tiene otro procedimiento con el mismo código en la misma fecha.
+Usuario consecutivo 342 -> Tipo de documento no coincide con la edad (6 años, 2510 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 342 -> Tipo de documento no coincide con la edad (6 años, 2510 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 342 -> Tipo de documento no coincide con la edad (6 años, 2510 días). TI aplica entre 7 y 17 años cumplidos.
+Usuario consecutivo 343 -> Consulta repetida en 2025-04-14 09:53 con código 890201. El paciente tiene otra consulta con el mismo código en la misma fecha.
+Usuario consecutivo 347 -> Tipo de documento inválido: CN. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 347 -> Tipo de documento inválido: CN. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
+Usuario consecutivo 356 -> Consulta repetida en 2025-04-22 14:02 con código 890301. El paciente tiene otra consulta con el mismo código en la misma fecha.
