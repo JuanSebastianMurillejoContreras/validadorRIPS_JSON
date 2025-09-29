@@ -1,0 +1,3 @@
+Validación factura: sin_numfact
+==========================================================================
+⚠️ No se encontraron usuarios en la factura.

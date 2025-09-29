@@ -1,167 +1,27 @@
 Validación factura: 0102262
 ==========================================================================
-Usuario consecutivo 5 -> Consulta Diagnóstico en 2025-04-21 15:52 con código 890201. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado2 ('Z123') a principal.
-Usuario consecutivo 11 -> Procedimiento duplicado en 2025-04-07 15:39 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 12 -> Procedimiento duplicado en 2025-04-02 09:09 con código 892901. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 21 -> Consulta Diagnóstico en 2025-04-07 11:34 con código 890208. El diagnóstico principal 'R69X' no corresponde. Se debe mover el relacionado1 ('Z349') a principal.
-Usuario consecutivo 21 -> Procedimiento duplicado en 2025-04-01 14:08 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
 Usuario consecutivo 45 -> Tipo de documento no coincide con la edad (18 años, 6673 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
 Usuario consecutivo 45 -> Tipo de documento no coincide con la edad (18 años, 6673 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
-Usuario consecutivo 46 -> Procedimiento duplicado en 2025-04-11 13:01 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 51 -> Procedimiento duplicado en 2025-04-09 08:35 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 63 -> Procedimiento duplicado en 2025-04-10 14:02 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 74 -> Consulta Diagnóstico en 2025-04-23 14:07 con código 890201. El diagnóstico principal 'Z113' no corresponde. Se debe mover el relacionado2 ('Z125') a principal.
-Usuario consecutivo 75 -> Procedimiento duplicado en 2025-04-25 09:04 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 89 -> Consulta Diagnóstico en 2025-04-22 15:22 con código 890201. El diagnóstico principal 'Z113' no corresponde. Se debe mover el relacionado1 ('Z125') a principal.
-Usuario consecutivo 89 -> Procedimiento duplicado en 2025-04-07 08:27 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 92 -> Procedimiento duplicado en 2025-04-04 08:54 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 98 -> Procedimiento duplicado en 2025-04-02 15:55 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 100 -> Procedimiento duplicado en 2025-04-09 10:19 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 102 -> Procedimiento duplicado en 2025-04-09 16:19 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 106 -> Procedimiento duplicado en 2025-04-04 10:00 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 112 -> Procedimiento duplicado en 2025-04-30 13:50 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 113 -> Procedimiento duplicado en 2025-04-14 07:35 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 114 -> Procedimiento duplicado en 2025-04-01 14:39 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 126 -> Tipo de documento no coincide con la edad (10 años, 3694 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 126 -> Tipo de documento no coincide con la edad (10 años, 3694 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 126 -> Tipo de documento no coincide con la edad (10 años, 3694 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 126 -> Tipo de documento no coincide con la edad (10 años, 3694 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 128 -> Procedimiento duplicado en 2025-04-21 14:36 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
 Usuario consecutivo 130 -> Tipo de documento no coincide con la edad (17 años, 6547 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
 Usuario consecutivo 130 -> Tipo de documento no coincide con la edad (17 años, 6540 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
 Usuario consecutivo 130 -> Tipo de documento no coincide con la edad (17 años, 6540 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
 Usuario consecutivo 130 -> Tipo de documento no coincide con la edad (17 años, 6540 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
-Usuario consecutivo 130 -> Procedimiento duplicado en 2025-04-01 08:03 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 130 -> Tipo de documento no coincide con la edad (17 años, 6540 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
-Usuario consecutivo 131 -> Procedimiento duplicado en 2025-04-21 15:47 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 133 -> Procedimiento duplicado en 2025-04-09 15:56 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 135 -> Procedimiento duplicado en 2025-04-01 12:14 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 136 -> Consulta Diagnóstico en 2025-04-08 15:39 con código 890201. El diagnóstico principal 'Z121' no corresponde. Se debe mover el relacionado2 ('Z123') a principal.
-Usuario consecutivo 141 -> Consulta Diagnóstico en 2025-04-22 13:39 con código 890201. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado2 ('Z000') a principal.
-Usuario consecutivo 145 -> Procedimiento duplicado en 2025-04-04 16:28 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 149 -> Tipo de documento no coincide con la edad (19 años, 7037 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
-Usuario consecutivo 149 -> Tipo de documento no coincide con la edad (19 años, 7037 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
 Usuario consecutivo 151 -> Consulta Diagnóstico en 2025-04-14 15:03 con código 890203. El diagnóstico principal 'K083' no corresponde. Se debe mover el relacionado1 ('Z349') a principal.
-Usuario consecutivo 152 -> Consulta Diagnóstico en 2025-04-14 15:14 con código 890203. El diagnóstico principal 'K028' no corresponde. Se debe mover el relacionado1 ('Z012') a principal.
-Usuario consecutivo 155 -> Procedimiento duplicado en 2025-04-21 16:40 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 156 -> Consulta Diagnóstico en 2025-04-23 10:37 con código 890201. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado1 ('Z000') a principal.
 Usuario consecutivo 162 -> Tipo de documento no coincide con la edad (18 años, 6640 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
 Usuario consecutivo 162 -> Tipo de documento no coincide con la edad (18 años, 6659 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
 Usuario consecutivo 162 -> Tipo de documento no coincide con la edad (18 años, 6653 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
 Usuario consecutivo 162 -> Tipo de documento no coincide con la edad (18 años, 6653 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
-Usuario consecutivo 167 -> Consulta Diagnóstico en 2025-04-16 12:02 con código 890208. El diagnóstico principal 'R69X' no corresponde. Se debe mover el relacionado1 ('Z359') a principal.
-Usuario consecutivo 170 -> Consulta Diagnóstico en 2025-04-04 08:47 con código 890301. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado1 ('Z000') a principal.
-Usuario consecutivo 171 -> Procedimiento duplicado en 2025-04-03 08:49 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 175 -> Consulta Diagnóstico en 2025-04-24 10:55 con código 890208. El diagnóstico principal 'R69X' no corresponde. Se debe mover el relacionado1 ('Z359') a principal.
-Usuario consecutivo 176 -> Procedimiento duplicado en 2025-04-16 15:09 con código 990201. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 178 -> Consulta Diagnóstico en 2025-04-21 15:53 con código 890201. El diagnóstico principal 'Z121' no corresponde. Se debe mover el relacionado1 ('Z000') a principal.
-Usuario consecutivo 186 -> Procedimiento duplicado en 2025-04-16 13:43 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 190 -> Procedimiento duplicado en 2025-04-03 15:57 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 196 -> Procedimiento duplicado en 2025-04-02 13:22 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 199 -> Procedimiento duplicado en 2025-04-23 12:26 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 200 -> Procedimiento duplicado en 2025-04-01 15:09 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 204 -> Consulta Diagnóstico en 2025-04-23 12:23 con código 890201. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado1 ('Z000') a principal.
-Usuario consecutivo 208 -> Procedimiento duplicado en 2025-04-09 07:47 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 210 -> Procedimiento duplicado en 2025-04-01 15:10 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
-Usuario consecutivo 210 -> Procedimiento duplicado en 2025-04-01 15:10 con código 997107. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 7)
-Usuario consecutivo 210 -> Procedimiento duplicado en 2025-04-01 15:10 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 8)
-Usuario consecutivo 210 -> Procedimiento duplicado en 2025-04-01 15:10 con código 997106. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 9)
-Usuario consecutivo 210 -> Procedimiento duplicado en 2025-04-01 15:10 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 10)
-Usuario consecutivo 210 -> Procedimiento duplicado en 2025-04-01 15:10 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 11)
-Usuario consecutivo 211 -> Procedimiento duplicado en 2025-04-03 14:36 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 212 -> Consulta Diagnóstico en 2025-04-01 10:00 con código 890201. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado2 ('Z000') a principal.
-Usuario consecutivo 213 -> Procedimiento duplicado en 2025-04-09 14:36 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 215 -> Tipo de documento no coincide con la edad (19 años, 7050 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
-Usuario consecutivo 219 -> Tipo de documento no coincide con la edad (8 años, 2989 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 219 -> Tipo de documento no coincide con la edad (8 años, 2989 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 219 -> Tipo de documento no coincide con la edad (8 años, 2989 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 219 -> Tipo de documento no coincide con la edad (8 años, 2989 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 223 -> Consulta Diagnóstico en 2025-04-09 10:21 con código 890208. El diagnóstico principal 'R69X' no corresponde. Se debe mover el relacionado1 ('Z359') a principal.
-Usuario consecutivo 223 -> Procedimiento duplicado en 2025-04-15 16:10 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 7)
-Usuario consecutivo 231 -> Tipo de documento no coincide con la edad (18 años, 6649 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
-Usuario consecutivo 231 -> Procedimiento duplicado en 2025-04-02 14:11 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 210 -> Procedimiento duplicado en 2025-04-01 15:10 con código 997107. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
 Usuario consecutivo 231 -> Tipo de documento no coincide con la edad (18 años, 6649 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
 Usuario consecutivo 231 -> Tipo de documento no coincide con la edad (18 años, 6649 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
 Usuario consecutivo 231 -> Tipo de documento no coincide con la edad (18 años, 6649 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
-Usuario consecutivo 233 -> Procedimiento duplicado en 2025-04-02 10:33 con código 892901. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 235 -> Tipo de documento no coincide con la edad (9 años, 3363 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 235 -> Tipo de documento no coincide con la edad (9 años, 3358 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 235 -> Tipo de documento no coincide con la edad (9 años, 3358 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 235 -> Procedimiento duplicado en 2025-04-09 14:58 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 235 -> Tipo de documento no coincide con la edad (9 años, 3358 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 235 -> Tipo de documento no coincide con la edad (9 años, 3358 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 235 -> Tipo de documento no coincide con la edad (9 años, 3358 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 244 -> Consulta Diagnóstico en 2025-04-21 16:26 con código 890201. El diagnóstico principal 'Z113' no corresponde. Se debe mover el relacionado1 ('Z000') a principal.
-Usuario consecutivo 251 -> Procedimiento duplicado en 2025-04-25 09:35 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 254 -> Procedimiento duplicado en 2025-04-04 07:00 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 264 -> Consulta Diagnóstico en 2025-04-23 07:46 con código 890201. El diagnóstico principal 'Z121' no corresponde. Se debe mover el relacionado2 ('Z000') a principal.
-Usuario consecutivo 266 -> Procedimiento duplicado en 2025-04-30 09:11 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 268 -> Procedimiento duplicado en 2025-04-09 15:58 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 269 -> Procedimiento duplicado en 2025-04-08 13:26 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 272 -> Procedimiento duplicado en 2025-04-21 15:16 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 275 -> Consulta Diagnóstico en 2025-04-07 17:32 con código 890201. Ninguno de los diagnósticos (principal: 'Z136', rel1: 'Z113', rel2: 'Z121') corresponde a la lista válida.
-Usuario consecutivo 275 -> Procedimiento duplicado en 2025-04-03 08:37 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 278 -> Procedimiento duplicado en 2025-04-01 13:45 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 279 -> Procedimiento duplicado en 2025-04-21 09:11 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 280 -> Consulta Diagnóstico en 2025-04-22 12:24 con código 890201. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado1 ('Z000') a principal.
-Usuario consecutivo 281 -> Procedimiento duplicado en 2025-04-07 14:29 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 282 -> Consulta Diagnóstico en 2025-04-23 15:20 con código 890201. El diagnóstico principal 'Z121' no corresponde. Se debe mover el relacionado2 ('Z000') a principal.
-Usuario consecutivo 286 -> Procedimiento duplicado en 2025-04-01 16:31 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 289 -> Procedimiento duplicado en 2025-04-15 11:28 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 295 -> Procedimiento duplicado en 2025-04-02 08:18 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
 Usuario consecutivo 297 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
 Usuario consecutivo 297 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
-Usuario consecutivo 302 -> Procedimiento duplicado en 2025-04-08 13:50 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 314 -> Procedimiento duplicado en 2025-04-04 15:10 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 321 -> Procedimiento duplicado en 2025-04-25 11:05 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 328 -> Procedimiento duplicado en 2025-04-21 09:40 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 331 -> Diagnóstico Z300 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '11'. Fecha atención: 2025-04-23 13:47
 Usuario consecutivo 339 -> Procedimiento duplicado en 2025-04-09 16:40 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 350 -> Procedimiento duplicado en 2025-04-07 06:55 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 356 -> Procedimiento duplicado en 2025-04-02 15:36 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 357 -> Procedimiento duplicado en 2025-04-29 09:38 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 358 -> Procedimiento duplicado en 2025-04-24 11:31 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 364 -> Consulta Diagnóstico en 2025-04-10 08:26 con código 890201. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado2 ('Z000') a principal.
-Usuario consecutivo 364 -> Procedimiento duplicado en 2025-04-08 12:44 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
 Usuario consecutivo 365 -> Tipo de documento inválido: CN. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
 Usuario consecutivo 365 -> Tipo de documento inválido: CN. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
-Usuario consecutivo 367 -> Consulta Diagnóstico en 2025-04-21 16:52 con código 890201. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado1 ('Z000') a principal.
 Usuario consecutivo 373 -> Tipo de documento inválido: PT. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
-Usuario consecutivo 381 -> Tipo de documento no coincide con la edad (7 años, 2802 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 381 -> Tipo de documento no coincide con la edad (7 años, 2802 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 381 -> Tipo de documento no coincide con la edad (7 años, 2802 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 381 -> Tipo de documento no coincide con la edad (7 años, 2802 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 381 -> Tipo de documento no coincide con la edad (7 años, 2802 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 381 -> Procedimiento duplicado en 2025-04-02 13:11 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 381 -> Tipo de documento no coincide con la edad (7 años, 2802 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 382 -> Procedimiento duplicado en 2025-04-22 07:53 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 390 -> Procedimiento duplicado en 2025-04-07 15:30 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 391 -> Procedimiento duplicado en 2025-04-09 15:28 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 395 -> Procedimiento duplicado en 2025-04-08 13:23 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 396 -> Consulta Diagnóstico en 2025-04-21 13:31 con código 890201. El diagnóstico principal 'Z136' no corresponde. Se debe mover el relacionado1 ('Z000') a principal.
-Usuario consecutivo 399 -> Procedimiento duplicado en 2025-04-02 11:52 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 404 -> Consulta Diagnóstico en 2025-04-03 11:16 con código 890208. El diagnóstico principal 'R69X' no corresponde. Se debe mover el relacionado1 ('Z358') a principal.
-Usuario consecutivo 408 -> Consulta Diagnóstico en 2025-04-25 07:35 con código 890201. El diagnóstico principal 'Z121' no corresponde. Se debe mover el relacionado2 ('Z000') a principal.
-Usuario consecutivo 412 -> Procedimiento duplicado en 2025-04-02 08:49 con código 892901. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 413 -> Procedimiento duplicado en 2025-04-29 13:56 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 421 -> Procedimiento duplicado en 2025-04-07 07:17 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 422 -> Tipo de documento no coincide con la edad (8 años, 3177 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 422 -> Procedimiento duplicado en 2025-04-08 11:08 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 422 -> Tipo de documento no coincide con la edad (8 años, 3177 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 422 -> Tipo de documento no coincide con la edad (8 años, 3177 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 422 -> Tipo de documento no coincide con la edad (8 años, 3177 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 423 -> Procedimiento duplicado en 2025-04-02 15:48 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 425 -> Procedimiento duplicado en 2025-04-29 13:55 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 427 -> Procedimiento duplicado en 2025-04-08 10:05 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
 Usuario consecutivo 438 -> Tipo de documento no coincide con la edad (7 años, 2606 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
 Usuario consecutivo 438 -> Tipo de documento no coincide con la edad (7 años, 2606 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
 Usuario consecutivo 438 -> Tipo de documento no coincide con la edad (7 años, 2606 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
 Usuario consecutivo 438 -> Tipo de documento no coincide con la edad (7 años, 2606 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 438 -> Procedimiento duplicado en 2025-04-25 09:36 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 438 -> Tipo de documento no coincide con la edad (7 años, 2606 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 447 -> Procedimiento duplicado en 2025-04-03 15:11 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 451 -> Consulta Diagnóstico en 2025-04-03 10:01 con código 890201. El diagnóstico principal 'Z124' no corresponde. Se debe mover el relacionado1 ('Z000') a principal.
-Usuario consecutivo 451 -> Procedimiento duplicado en 2025-04-03 10:22 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 456 -> Tipo de documento no coincide con la edad (19 años, 6999 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
-Usuario consecutivo 456 -> Tipo de documento no coincide con la edad (19 años, 6999 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
-Usuario consecutivo 460 -> Procedimiento duplicado en 2025-04-16 15:19 con código 997106. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)

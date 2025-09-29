@@ -17,7 +17,7 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Service
-public class ValidadorService {
+public class ValidadorServicePYP {
 
     // Guarda errores por número de factura (para endpoints que quieran consultarlos)
     private final ConcurrentHashMap<String, StringBuilder> erroresPorFactura = new ConcurrentHashMap<>();

@@ -1,0 +1,16 @@
+Validación factura: 0102272
+==========================================================================
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 100 -> Diagnóstico Z316 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 15:49
+Usuario consecutivo 252 -> Tipo de documento inválido: CN. Debe ser uno de [MS, RC, CE, TI, CC, AS, PA]
