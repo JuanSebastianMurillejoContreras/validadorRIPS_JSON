@@ -57,7 +57,7 @@ public class ValidadorServicePYP {
             "997105","232102","232403","234401","237301","245100"
     );
 
-    private static final Set<String> CUPS_QUE_NO_UEDEN_REPETIRSE = Set.of(
+    private static final Set<String> CUPS_QUE_NO_PUEDEN_REPETIRSE_EN_PROCEDIMIENTOS = Set.of(
             "997104",
             "997106",
             "997107",

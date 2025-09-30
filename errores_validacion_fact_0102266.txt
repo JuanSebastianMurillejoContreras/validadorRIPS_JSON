@@ -1,7 +1,5 @@
 Validación factura: 0102266
 ==========================================================================
-Usuario consecutivo 14 -> Procedimiento duplicado en 2025-04-22 12:16 con código 990204. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 23 -> Procedimiento duplicado en 2025-04-23 11:53 con código 906127. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 11)
 Usuario consecutivo 24 -> Tipo de documento no coincide con la edad (18 años, 6623 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
 Usuario consecutivo 25 -> Procedimiento duplicado en 2025-04-10 14:45 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
 Usuario consecutivo 35 -> Tipo de documento no coincide con la edad (7 años, 2875 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
