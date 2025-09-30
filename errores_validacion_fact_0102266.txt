@@ -1,0 +1,95 @@
+Validación factura: 0102266
+==========================================================================
+Usuario consecutivo 14 -> Procedimiento duplicado en 2025-04-22 12:16 con código 990204. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 23 -> Procedimiento duplicado en 2025-04-23 11:53 con código 906127. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 11)
+Usuario consecutivo 24 -> Tipo de documento no coincide con la edad (18 años, 6623 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 25 -> Procedimiento duplicado en 2025-04-10 14:45 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 35 -> Tipo de documento no coincide con la edad (7 años, 2875 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 37 -> Procedimiento duplicado en 2025-04-12 12:59 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 53 -> Procedimiento duplicado en 2025-04-10 10:02 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 67 -> Procedimiento duplicado en 2025-04-28 15:44 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 9)
+Usuario consecutivo 81 -> Procedimiento duplicado en 2025-04-09 07:29 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 83 -> Tipo de documento no coincide con la edad (19 años, 7226 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 99 -> Procedimiento duplicado en 2025-04-16 11:07 con código 990204. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 100 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-26 08:38
+Usuario consecutivo 101 -> Tipo de documento no coincide con la edad (18 años, 6918 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 108 -> Procedimiento duplicado en 2025-04-26 16:18 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 110 -> Tipo de documento no coincide con la edad (7 años, 2608 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 111 -> Tipo de documento no coincide con la edad (7 años, 2760 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 113 -> Procedimiento duplicado en 2025-04-25 07:24 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 115 -> Procedimiento duplicado en 2025-04-28 15:45 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 116 -> Procedimiento duplicado en 2025-04-25 10:05 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 121 -> Tipo de documento no coincide con la edad (7 años, 2756 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 122 -> Procedimiento duplicado en 2025-04-28 15:44 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 123 -> Tipo de documento no coincide con la edad (7 años, 2756 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 140 -> Tipo de documento no coincide con la edad (7 años, 2740 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 148 -> Procedimiento duplicado en 2025-04-23 15:45 con código 906131. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 12)
+Usuario consecutivo 156 -> Tipo de documento no coincide con la edad (19 años, 7051 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 164 -> Tipo de documento no coincide con la edad (7 años, 2815 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 170 -> Procedimiento duplicado en 2025-04-26 16:37 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 182 -> Procedimiento duplicado en 2025-04-22 15:56 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 191 -> Procedimiento duplicado en 2025-04-26 06:58 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 191 -> Procedimiento duplicado en 2025-04-26 06:58 con código 997106. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 200 -> Procedimiento duplicado en 2025-04-26 06:57 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 224 -> Procedimiento duplicado en 2025-04-05 12:30 con código 906249. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 224 -> Procedimiento duplicado en 2025-04-05 12:30 con código 906039. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 7)
+Usuario consecutivo 239 -> Tipo de documento no coincide con la edad (7 años, 2866 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 254 -> Procedimiento duplicado en 2025-04-11 16:31 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 260 -> Tipo de documento no coincide con la edad (19 años, 7130 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 271 -> Procedimiento duplicado en 2025-04-04 08:33 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 304 -> Tipo de documento no coincide con la edad (8 años, 3019 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 308 -> Tipo de documento no coincide con la edad (8 años, 3001 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 308 -> Procedimiento duplicado en 2025-04-03 14:56 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 310 -> Procedimiento duplicado en 2025-04-24 07:04 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 323 -> Tipo de documento no coincide con la edad (19 años, 6981 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 344 -> Procedimiento duplicado en 2025-04-09 07:28 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 345 -> Procedimiento duplicado en 2025-04-29 14:44 con código 906249. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 345 -> Procedimiento duplicado en 2025-04-29 14:44 con código 906039. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 7)
+Usuario consecutivo 347 -> Tipo de documento no coincide con la edad (18 años, 6655 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 356 -> Tipo de documento no coincide con la edad (7 años, 2598 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 388 -> Procedimiento duplicado en 2025-04-24 14:50 con código 906242. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 11)
+Usuario consecutivo 392 -> Procedimiento duplicado en 2025-04-30 11:12 con código 906249. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 392 -> Procedimiento duplicado en 2025-04-30 11:12 con código 906039. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 393 -> Tipo de documento no coincide con la edad (9 años, 3304 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 396 -> Procedimiento duplicado en 2025-04-26 06:57 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 398 -> Tipo de documento no coincide con la edad (19 años, 7170 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 402 -> Tipo de documento no coincide con la edad (8 años, 3093 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 402 -> Procedimiento duplicado en 2025-04-26 06:56 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 402 -> Procedimiento duplicado en 2025-04-26 06:56 con código 997106. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 407 -> Procedimiento duplicado en 2025-04-26 06:57 con código 997106. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 407 -> Procedimiento duplicado en 2025-04-26 06:57 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 419 -> Tipo de documento no coincide con la edad (7 años, 2632 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 422 -> Tipo de documento no coincide con la edad (19 años, 7067 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 442 -> Tipo de documento no coincide con la edad (18 años, 6832 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 445 -> Procedimiento duplicado en 2025-04-04 14:34 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 459 -> Tipo de documento no coincide con la edad (8 años, 3175 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 459 -> Procedimiento duplicado en 2025-04-08 16:12 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 481 -> Tipo de documento no coincide con la edad (7 años, 2917 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 490 -> Procedimiento duplicado en 2025-04-09 07:29 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 501 -> Procedimiento duplicado en 2025-04-23 08:09 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 502 -> Tipo de documento no coincide con la edad (8 años, 3227 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 506 -> Procedimiento duplicado en 2025-04-11 11:45 con código 906039. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 506 -> Procedimiento duplicado en 2025-04-11 11:45 con código 906249. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 507 -> Tipo de documento no coincide con la edad (7 años, 2570 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 507 -> Procedimiento duplicado en 2025-04-03 15:00 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 511 -> Tipo de documento no coincide con la edad (7 años, 2792 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 523 -> Procedimiento duplicado en 2025-04-04 08:43 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 523 -> Procedimiento duplicado en 2025-04-04 08:43 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 531 -> Procedimiento duplicado en 2025-04-29 15:44 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 536 -> Procedimiento duplicado en 2025-04-24 15:54 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 538 -> Tipo de documento no coincide con la edad (19 años, 7075 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 564 -> Procedimiento duplicado en 2025-04-24 12:59 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 572 -> Procedimiento duplicado en 2025-04-26 16:16 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 575 -> Procedimiento duplicado en 2025-04-24 12:59 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 581 -> Procedimiento duplicado en 2025-04-22 15:57 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 581 -> Procedimiento duplicado en 2025-04-22 15:57 con código 997106. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 589 -> Procedimiento duplicado en 2025-04-22 12:22 con código 990201. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 592 -> Tipo de documento no coincide con la edad (19 años, 7020 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 593 -> Procedimiento duplicado en 2025-04-24 12:59 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 598 -> Tipo de documento no coincide con la edad (7 años, 2790 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 601 -> Procedimiento duplicado en 2025-04-29 09:20 con código 997002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 601 -> Procedimiento duplicado en 2025-04-29 09:20 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 601 -> Procedimiento duplicado en 2025-04-29 09:20 con código 997106. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 602 -> Tipo de documento no coincide con la edad (18 años, 6813 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 605 -> Tipo de documento no coincide con la edad (7 años, 2811 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 607 -> Tipo de documento no coincide con la edad (7 años, 2918 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.

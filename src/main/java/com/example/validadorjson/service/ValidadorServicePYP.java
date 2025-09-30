@@ -39,6 +39,7 @@ public class ValidadorServicePYP {
             "Z352","Z353","Z354","Z355","Z356","Z357","Z358","Z359",
             "Z360","Z361","Z362","Z363","Z364","Z365","Z368","Z369"
     );
+
     // Lista de diagnósticos que deben ser los principales segun la nota técnica.
     private static final Set<String> DIAGNOSTICOS_VALIDOS = Set.of(
             "Z000","Z001","Z002","Z003","Z012",
@@ -49,6 +50,23 @@ public class ValidadorServicePYP {
             "Z356","Z357","Z358","Z359","Z390",
             "Z391","Z392","Z762"
     );
+
+    private static final Set<String> CUPS_QUE_PUEDEN_REPETIRSE = Set.of(
+            "230101","230102","230201","230202","232101","232103","232200","232401",
+            "232402","234402","237102","237103","237304","237305","249100","997301",
+            "997105","232102","232403","234401","237301","245100"
+    );
+
+    private static final Set<String> CUPS_QUE_NO_UEDEN_REPETIRSE = Set.of(
+            "997104",
+            "997106",
+            "997107",
+            "990103",
+            "990203",
+            "990212",
+            "997002"
+    );
+
 
 
     /**
@@ -115,6 +133,19 @@ public class ValidadorServicePYP {
             return;
         }
 
+        // ✅ Validar documento vs edad UNA SOLA VEZ por usuario
+        try {
+            int edad = calcularEdadEnAtencionSafe(
+                    usuario.fechaNacimiento(),
+                    LocalDate.now().toString(), // o la fecha de la primera atención si quieres ser más preciso
+                    errores,
+                    consecutivoUsuario
+            );
+            validarDocumentoSegunEdad(usuario, LocalDate.now().toString(), edad, errores);
+        } catch (Exception ex) {
+            appendError(errores, "Usuario consecutivo " + consecutivoUsuario + " -> Error validando documento/edad: " + ex.getMessage());
+        }
+
         // Consultas
         if (usuario.servicios().consultas() != null) {
             for (Consulta c : usuario.servicios().consultas()) {
@@ -137,7 +168,7 @@ public class ValidadorServicePYP {
                     }
 
                     int edad = calcularEdadEnAtencionSafe(usuario.fechaNacimiento(), fechaAt, errores, consecutivoUsuario);
-                    validarDocumentoSegunEdad(usuario, fechaAt, edad, errores);
+
 
                     // ✅ Validación Diagnóstico vs Finalidad
                     validarDiagnosticoVsFinalidadEnConsulta(c, usuario, errores);
@@ -154,6 +185,7 @@ public class ValidadorServicePYP {
                             c.codConsulta()
                     );
 
+
                 } catch (Exception ex) {
                     registrarError(errores, consecutivoUsuario, "Error lectura consulta",
                             c != null ? c.fechaInicioAtencion() : "N/A",
@@ -168,30 +200,7 @@ public class ValidadorServicePYP {
         if (usuario.servicios().procedimientos() != null) {
             for (Procedimiento p : usuario.servicios().procedimientos()) {
                 try {
-                    String fechaAt = Optional.ofNullable(p.fechaInicioAtencion()).orElse("");
-                    String dateKey = fechaAt.length() >= 10 ? fechaAt.substring(0, 10) : fechaAt;
-
-                    String key = pacienteDocumento + "_" +
-                            safeString(p.codProcedimiento()) + "_" +
-                            safeString(p.finalidadTecnologiaSalud()) + "_" +
-                            safeString(p.codDiagnosticoPrincipal()) + "_" +
-                            dateKey;
-
-                    if (!procedimientosUnicos.add(key)) {
-                        registrarError(errores, consecutivoUsuario,
-                                "Procedimiento duplicado",
-                                fechaAt,
-                                p.codProcedimiento(),
-                                "El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. "
-                                        + "(Consecutivo procedimiento: " + p.consecutivo() + ")");
-                    }
-
-                    int edad = calcularEdadEnAtencionSafe(usuario.fechaNacimiento(), fechaAt, errores, consecutivoUsuario);
-                    validarDocumentoSegunEdad(usuario, fechaAt, edad, errores);
-
-                    // ✅ Validación Diagnóstico vs Finalidad
-                    validarDiagnosticoVsFinalidadEnProcedimiento(p, usuario, errores);
-
+                    int edad = calcularEdadEnAtencionSafe(usuario.fechaNacimiento(), p.fechaInicioAtencion(), errores, consecutivoUsuario);
                 } catch (Exception ex) {
                     registrarError(errores, consecutivoUsuario, "Error lectura procedimiento",
                             p != null ? p.fechaInicioAtencion() : "N/A",
@@ -199,7 +208,10 @@ public class ValidadorServicePYP {
                             "Error procesando procedimiento: " + ex.getMessage());
                 }
             }
+            // ✅ solo una validación centralizada
+            validarDuplicadosProcedimientos(usuario, errores);
         }
+
     }
 
 
@@ -398,35 +410,6 @@ public class ValidadorServicePYP {
     /**
      * Misma validación pero para Procedimiento.
      */
-    private void validarDiagnosticoVsFinalidadEnProcedimiento(Procedimiento p, Usuario usuario, StringBuilder errores) {
-        if (p == null || usuario == null) return;
-
-        int consecutivoUsuario = usuario.consecutivo();
-        String diag = Optional.ofNullable(p.codDiagnosticoPrincipal()).orElse("").trim().toUpperCase(Locale.ROOT);
-        String finalidad = Optional.ofNullable(p.finalidadTecnologiaSalud()).orElse("").trim();
-
-        if (DIAGNOSTICOS_PLANIFICACION.contains(diag)) {
-            if (!"19".equals(finalidad)) {
-                String msg = "Usuario consecutivo " + consecutivoUsuario +
-                        " -> Diagnóstico " + diag +
-                        " en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. " +
-                        "Actualmente: '" + finalidad + "'. Fecha atención: " +
-                        Optional.ofNullable(p.fechaInicioAtencion()).orElse("N/A");
-                appendError(errores, msg);
-            }
-        }
-
-        if (DIAGNOSTICOS_PRENATAL.contains(diag)) {
-            if (!"23".equals(finalidad)) {
-                String msg = "Usuario consecutivo " + consecutivoUsuario +
-                        " -> Diagnóstico " + diag +
-                        " corresponde a prental, por lo que la finalidad debe ser '19'. " +
-                        "Actualmente: '" + finalidad + "'. Fecha atención: " +
-                        Optional.ofNullable(p.fechaInicioAtencion()).orElse("N/A");
-                appendError(errores, msg);
-            }
-        }
-    }
 
     private void validarDiagnosticoPrincipalVsRelacionados(
             String codPrincipal,
@@ -442,7 +425,7 @@ public class ValidadorServicePYP {
         String rel1 = safeString(codRelacionado1);
         String rel2 = safeString(codRelacionado2);
 
-        // Caso 1: Principal está en la lista válida -> todo bien
+        // Caso 1: Principal está en la lista válida
         if (DIAGNOSTICOS_VALIDOS.contains(principal)) {
             return;
         }
@@ -478,5 +461,56 @@ public class ValidadorServicePYP {
                         "', rel1: '" + rel1 + "', rel2: '" + rel2 +
                         "') corresponde a la lista válida.");
     }
+
+    /**
+     * Valida procedimientos duplicados en un usuario.
+     * Se considera duplicado si en la misma fecha tiene el mismo código,
+     * la misma finalidad y el mismo diagnóstico principal.
+     */
+    private void validarDuplicadosProcedimientos(Usuario usuario, StringBuilder errores) {
+        if (usuario == null || usuario.servicios() == null || usuario.servicios().procedimientos() == null) {
+            return;
+        }
+
+        int consecutivoUsuario = usuario.consecutivo();
+        String pacienteDocumento = Optional.ofNullable(usuario.numDocumentoIdentificacion())
+                .orElse("ND-" + consecutivoUsuario);
+
+        Map<String, Procedimiento> vistos = new HashMap<>();
+
+        for (Procedimiento p : usuario.servicios().procedimientos()) {
+            try {
+                String fechaAt = Optional.ofNullable(p.fechaInicioAtencion()).orElse("");
+                String dateKey = fechaAt.length() >= 10 ? fechaAt.substring(0, 10) : fechaAt;
+
+                String key = pacienteDocumento + "_" +
+                        safeString(p.codProcedimiento()) + "_" +
+                        safeString(p.finalidadTecnologiaSalud()) + "_" +
+                        safeString(p.codDiagnosticoPrincipal()) + "_" +
+                        dateKey;
+
+                if (vistos.containsKey(key)) {
+                    Procedimiento previo = vistos.get(key);
+                    String msg = "Usuario consecutivo " + consecutivoUsuario +
+                            " -> Procedimiento duplicado en " + fechaAt +
+                            " con código " + safeString(p.codProcedimiento()) +
+                            ". El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. " +
+                            "(Consecutivo procedimiento: " + p.consecutivo() + ")";
+                    appendError(errores, msg);
+                } else {
+                    vistos.put(key, p);
+                }
+            } catch (Exception ex) {
+                registrarError(errores, consecutivoUsuario,
+                        "Error validando duplicado de procedimiento",
+                        p != null ? p.fechaInicioAtencion() : "N/A",
+                        p != null ? p.codProcedimiento() : "N/A",
+                        "Error: " + ex.getMessage());
+            }
+        }
+    }
+
+
+
 
 }
