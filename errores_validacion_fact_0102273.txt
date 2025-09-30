@@ -1,39 +1,19 @@
 Validación factura: 0102273
 ==========================================================================
-Usuario consecutivo 3 -> Procedimiento duplicado en 2025-04-08 14:09 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
 Usuario consecutivo 34 -> Procedimiento duplicado en 2025-04-02 11:07 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 43 -> Procedimiento duplicado en 2025-04-29 16:23 con código 903895. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 43 -> Procedimiento duplicado en 2025-04-29 16:23 con código 903856. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
-Usuario consecutivo 52 -> Procedimiento duplicado en 2025-04-29 15:43 con código 901304. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 107 -> Tipo de documento no coincide con la edad (18 años, 6655 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
 Usuario consecutivo 116 -> Procedimiento duplicado en 2025-04-03 14:11 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
 Usuario consecutivo 144 -> Procedimiento duplicado en 2025-04-09 14:09 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
-Usuario consecutivo 146 -> Consulta duplicada en 2025-04-30 15:13 con código 890201. El paciente tiene otra consulta con el mismo código, finalidad y diagnóstico en la misma fecha.
 Usuario consecutivo 157 -> Procedimiento duplicado en 2025-04-03 14:09 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
 Usuario consecutivo 177 -> Procedimiento duplicado en 2025-04-03 14:07 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
 Usuario consecutivo 193 -> Procedimiento duplicado en 2025-04-03 14:13 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 217 -> Tipo de documento no coincide con la edad (7 años, 2617 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
-Usuario consecutivo 249 -> Tipo de documento no coincide con la edad (7 años, 2613 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
 Usuario consecutivo 254 -> Tipo de documento no coincide con la edad (6 años, 2457 días). TI aplica entre 7 y 17 años cumplidos.
 Usuario consecutivo 254 -> Tipo de documento no coincide con la edad (6 años, 2471 días). TI aplica entre 7 y 17 años cumplidos.
 Usuario consecutivo 283 -> Tipo de documento no coincide con la edad (6 años, 2545 días). TI aplica entre 7 y 17 años cumplidos.
-Usuario consecutivo 288 -> Procedimiento duplicado en 2025-04-29 15:05 con código 902206. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
-Usuario consecutivo 288 -> Procedimiento duplicado en 2025-04-29 15:05 con código 902210. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
-Usuario consecutivo 288 -> Procedimiento duplicado en 2025-04-29 15:05 con código 907002. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
-Usuario consecutivo 301 -> Procedimiento duplicado en 2025-04-22 15:57 con código 904912. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 8)
-Usuario consecutivo 301 -> Procedimiento duplicado en 2025-04-22 15:57 con código 903026. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 9)
-Usuario consecutivo 301 -> Procedimiento duplicado en 2025-04-22 15:57 con código 903862. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 10)
-Usuario consecutivo 301 -> Procedimiento duplicado en 2025-04-22 15:57 con código 903804. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 12)
-Usuario consecutivo 301 -> Procedimiento duplicado en 2025-04-22 15:57 con código 903876. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 13)
-Usuario consecutivo 301 -> Procedimiento duplicado en 2025-04-22 15:57 con código 903856. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 14)
-Usuario consecutivo 303 -> Tipo de documento inválido: PT. Debe ser uno de [AS, PA, MS, RC, CE, TI, CC]
-Usuario consecutivo 382 -> Procedimiento duplicado en 2025-04-24 16:40 con código 903862. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 9)
-Usuario consecutivo 437 -> Tipo de documento inválido: PT. Debe ser uno de [AS, PA, MS, RC, CE, TI, CC]
-Usuario consecutivo 437 -> Tipo de documento inválido: PT. Debe ser uno de [AS, PA, MS, RC, CE, TI, CC]
-Usuario consecutivo 450 -> Consulta duplicada en 2025-04-24 11:24 con código 890203. El paciente tiene otra consulta con el mismo código, finalidad y diagnóstico en la misma fecha.
+Usuario consecutivo 303 -> Tipo de documento inválido: PT. Debe ser uno de [PA, AS, CC, TI, CE, RC, MS]
+Usuario consecutivo 437 -> Tipo de documento inválido: PT. Debe ser uno de [PA, AS, CC, TI, CE, RC, MS]
+Usuario consecutivo 437 -> Tipo de documento inválido: PT. Debe ser uno de [PA, AS, CC, TI, CE, RC, MS]
 Usuario consecutivo 450 -> Procedimiento duplicado en 2025-04-24 11:24 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
 Usuario consecutivo 482 -> Procedimiento duplicado en 2025-04-03 09:46 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
 Usuario consecutivo 482 -> Procedimiento duplicado en 2025-04-03 09:46 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
 Usuario consecutivo 517 -> Procedimiento duplicado en 2025-04-25 07:29 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
-Usuario consecutivo 518 -> Consulta duplicada en 2025-04-29 11:25 con código 890301. El paciente tiene otra consulta con el mismo código, finalidad y diagnóstico en la misma fecha.
 Usuario consecutivo 547 -> Procedimiento duplicado en 2025-04-08 11:25 con código 232102. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 7)

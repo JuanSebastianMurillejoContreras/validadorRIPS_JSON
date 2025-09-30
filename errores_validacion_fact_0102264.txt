@@ -1,0 +1,356 @@
+Validación factura: 0102264
+==========================================================================
+Usuario consecutivo 12 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-08 11:06
+Usuario consecutivo 26 -> Tipo de documento no coincide con la edad (7 años, 2597 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 26 -> Tipo de documento no coincide con la edad (7 años, 2597 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 26 -> Procedimiento duplicado en 2025-04-10 15:41 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 26 -> Tipo de documento no coincide con la edad (7 años, 2597 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 26 -> Tipo de documento no coincide con la edad (7 años, 2597 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 27 -> Tipo de documento no coincide con la edad (7 años, 2586 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 27 -> Tipo de documento no coincide con la edad (7 años, 2586 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 30 -> Procedimiento duplicado en 2025-04-25 15:02 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 30 -> Procedimiento duplicado en 2025-04-25 15:02 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 31 -> Procedimiento duplicado en 2025-04-23 10:40 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 33 -> Procedimiento duplicado en 2025-04-28 12:34 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 33 -> Procedimiento duplicado en 2025-04-28 12:34 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 36 -> Tipo de documento no coincide con la edad (8 años, 2970 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 36 -> Tipo de documento no coincide con la edad (8 años, 2969 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 36 -> Tipo de documento no coincide con la edad (8 años, 2969 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 36 -> Tipo de documento no coincide con la edad (8 años, 2969 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 36 -> Procedimiento duplicado en 2025-04-15 07:12 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 36 -> Tipo de documento no coincide con la edad (8 años, 2969 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 36 -> Tipo de documento no coincide con la edad (8 años, 2969 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 36 -> Tipo de documento no coincide con la edad (8 años, 2969 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 36 -> Tipo de documento no coincide con la edad (8 años, 2970 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 39 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 08:30
+Usuario consecutivo 39 -> Procedimiento duplicado en 2025-04-29 15:27 con código 906249. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 39 -> Procedimiento duplicado en 2025-04-29 15:27 con código 906039. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 50 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-28 06:34
+Usuario consecutivo 53 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-04 10:43
+Usuario consecutivo 56 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-28 15:29
+Usuario consecutivo 57 -> Tipo de documento no coincide con la edad (18 años, 6577 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 57 -> Tipo de documento no coincide con la edad (18 años, 6577 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 60 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 11:49
+Usuario consecutivo 65 -> Procedimiento duplicado en 2025-04-29 09:37 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 69 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-23 09:54
+Usuario consecutivo 72 -> Procedimiento duplicado en 2025-04-28 15:51 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 73 -> Procedimiento duplicado en 2025-04-10 10:17 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 74 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-15 14:03
+Usuario consecutivo 75 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-21 06:55
+Usuario consecutivo 81 -> Procedimiento duplicado en 2025-04-07 12:31 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 87 -> Tipo de documento no coincide con la edad (18 años, 6734 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 87 -> Tipo de documento no coincide con la edad (18 años, 6734 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 92 -> Procedimiento duplicado en 2025-04-29 14:22 con código 907106. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 93 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 06:39
+Usuario consecutivo 102 -> Procedimiento duplicado en 2025-04-16 07:55 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 102 -> Procedimiento duplicado en 2025-04-16 07:55 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 105 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-21 08:21
+Usuario consecutivo 105 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-30 15:21
+Usuario consecutivo 108 -> Procedimiento duplicado en 2025-04-02 10:18 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 115 -> Procedimiento duplicado en 2025-04-28 15:22 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 121 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-07 10:46
+Usuario consecutivo 124 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-15 13:18
+Usuario consecutivo 128 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 09:16
+Usuario consecutivo 129 -> Procedimiento duplicado en 2025-04-23 14:46 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 137 -> Procedimiento duplicado en 2025-04-23 14:18 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 141 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 08:25
+Usuario consecutivo 146 -> Procedimiento duplicado en 2025-04-28 16:17 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 148 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-22 09:31
+Usuario consecutivo 149 -> Tipo de documento no coincide con la edad (8 años, 3011 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 149 -> Tipo de documento no coincide con la edad (8 años, 3011 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 149 -> Tipo de documento no coincide con la edad (8 años, 3011 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 149 -> Procedimiento duplicado en 2025-04-30 10:39 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 149 -> Tipo de documento no coincide con la edad (8 años, 3011 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 149 -> Procedimiento duplicado en 2025-04-30 10:39 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 149 -> Tipo de documento no coincide con la edad (8 años, 3011 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 149 -> Tipo de documento no coincide con la edad (8 años, 3011 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 151 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-01 11:51
+Usuario consecutivo 155 -> Procedimiento duplicado en 2025-04-02 07:19 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 156 -> Procedimiento duplicado en 2025-04-04 09:06 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 157 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-03 11:23
+Usuario consecutivo 158 -> Tipo de documento no coincide con la edad (17 años, 6506 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 160 -> Procedimiento duplicado en 2025-04-11 08:31 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 160 -> Procedimiento duplicado en 2025-04-23 17:39 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 7)
+Usuario consecutivo 170 -> Diagnóstico Z340 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 09:18
+Usuario consecutivo 171 -> Tipo de documento no coincide con la edad (18 años, 6895 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 171 -> Tipo de documento no coincide con la edad (18 años, 6880 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 171 -> Tipo de documento no coincide con la edad (18 años, 6880 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 171 -> Tipo de documento no coincide con la edad (18 años, 6880 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 171 -> Tipo de documento no coincide con la edad (18 años, 6880 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 171 -> Tipo de documento no coincide con la edad (18 años, 6880 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 171 -> Tipo de documento no coincide con la edad (18 años, 6880 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 171 -> Tipo de documento no coincide con la edad (18 años, 6895 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 172 -> Procedimiento duplicado en 2025-04-16 07:28 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 173 -> Procedimiento duplicado en 2025-04-25 08:03 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 173 -> Procedimiento duplicado en 2025-04-25 08:03 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 185 -> Procedimiento duplicado en 2025-04-23 10:36 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6642 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6656 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6669 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6642 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6642 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6647 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6647 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-07 10:44
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6656 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6656 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6669 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 189 -> Tipo de documento no coincide con la edad (18 años, 6669 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 193 -> Tipo de documento no coincide con la edad (7 años, 2857 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 193 -> Tipo de documento no coincide con la edad (7 años, 2857 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 193 -> Procedimiento duplicado en 2025-04-09 09:11 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 193 -> Tipo de documento no coincide con la edad (7 años, 2857 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 193 -> Tipo de documento no coincide con la edad (7 años, 2857 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 194 -> Procedimiento duplicado en 2025-04-04 10:06 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 199 -> Procedimiento duplicado en 2025-04-22 14:32 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 203 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 10:38
+Usuario consecutivo 203 -> Procedimiento duplicado en 2025-04-16 13:47 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 205 -> Procedimiento duplicado en 2025-04-28 12:59 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 208 -> Procedimiento duplicado en 2025-04-11 12:37 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 212 -> Procedimiento duplicado en 2025-04-29 12:58 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 212 -> Procedimiento duplicado en 2025-04-29 12:58 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 214 -> Diagnóstico Z356 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '25'. Fecha atención: 2025-04-04 11:17
+Usuario consecutivo 216 -> Tipo de documento no coincide con la edad (18 años, 6710 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 216 -> Tipo de documento no coincide con la edad (18 años, 6710 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 217 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 08:23
+Usuario consecutivo 217 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-07 11:47
+Usuario consecutivo 221 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-02 15:31
+Usuario consecutivo 221 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-15 09:47
+Usuario consecutivo 222 -> Procedimiento duplicado en 2025-04-28 15:38 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 225 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-15 09:38
+Usuario consecutivo 226 -> Procedimiento duplicado en 2025-04-11 12:19 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 228 -> Tipo de documento no coincide con la edad (18 años, 6938 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 229 -> Procedimiento duplicado en 2025-04-09 09:07 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 234 -> Procedimiento duplicado en 2025-04-22 16:08 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 234 -> Procedimiento duplicado en 2025-04-22 16:08 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 236 -> Procedimiento duplicado en 2025-04-23 12:36 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 250 -> Procedimiento duplicado en 2025-04-21 12:03 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 250 -> Procedimiento duplicado en 2025-04-21 12:03 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 256 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-22 14:02
+Usuario consecutivo 262 -> Consulta Diagnóstico en 2025-04-14 13:43 con código 890301. Ninguno de los diagnósticos (principal: '', rel1: '', rel2: '') corresponde a la lista válida.
+Usuario consecutivo 262 -> Procedimiento duplicado en 2025-04-23 10:52 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 265 -> Procedimiento duplicado en 2025-04-23 16:28 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 265 -> Procedimiento duplicado en 2025-04-23 16:28 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 267 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 07:55
+Usuario consecutivo 267 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-03 07:02
+Usuario consecutivo 269 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-28 06:36
+Usuario consecutivo 273 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 10:55
+Usuario consecutivo 279 -> Procedimiento duplicado en 2025-04-08 08:53 con código 990204. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 285 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-23 13:34
+Usuario consecutivo 287 -> Procedimiento duplicado en 2025-04-28 09:58 con código 990201. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 289 -> Procedimiento duplicado en 2025-04-28 08:03 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 289 -> Procedimiento duplicado en 2025-04-28 08:03 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 296 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-29 14:32
+Usuario consecutivo 300 -> Procedimiento duplicado en 2025-04-24 17:13 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 300 -> Procedimiento duplicado en 2025-04-24 17:13 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 301 -> Procedimiento duplicado en 2025-04-04 15:48 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 302 -> Procedimiento duplicado en 2025-04-22 11:36 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 303 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 08:02
+Usuario consecutivo 303 -> Diagnóstico Z340 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-23 11:06
+Usuario consecutivo 307 -> Procedimiento duplicado en 2025-04-11 07:20 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 309 -> Procedimiento duplicado en 2025-04-14 07:58 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 313 -> Procedimiento duplicado en 2025-04-24 12:36 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 315 -> Procedimiento duplicado en 2025-04-10 15:23 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 315 -> Procedimiento duplicado en 2025-04-10 15:23 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 317 -> Procedimiento duplicado en 2025-04-15 11:21 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 324 -> Tipo de documento no coincide con la edad (17 años, 6466 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 324 -> Tipo de documento no coincide con la edad (17 años, 6466 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 324 -> Tipo de documento no coincide con la edad (17 años, 6466 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 324 -> Tipo de documento no coincide con la edad (17 años, 6472 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 325 -> Tipo de documento no coincide con la edad (17 años, 6486 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 325 -> Procedimiento duplicado en 2025-04-10 09:59 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 325 -> Tipo de documento no coincide con la edad (17 años, 6486 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 325 -> Tipo de documento no coincide con la edad (17 años, 6486 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 325 -> Tipo de documento no coincide con la edad (17 años, 6486 días). CC aplica preferiblemente para mayores de 17 años; revise el tipo de documento.
+Usuario consecutivo 326 -> Procedimiento duplicado en 2025-04-04 09:37 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 329 -> Procedimiento duplicado en 2025-04-21 07:20 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 334 -> Procedimiento duplicado en 2025-04-25 12:54 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 334 -> Procedimiento duplicado en 2025-04-25 12:54 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 340 -> Tipo de documento no coincide con la edad (19 años, 6974 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 341 -> Procedimiento duplicado en 2025-04-14 12:53 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 342 -> Tipo de documento no coincide con la edad (18 años, 6765 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 343 -> Procedimiento duplicado en 2025-04-29 12:53 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 349 -> Procedimiento duplicado en 2025-04-09 07:54 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 350 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 09:54
+Usuario consecutivo 350 -> Diagnóstico Z340 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-02 14:29
+Usuario consecutivo 351 -> Procedimiento duplicado en 2025-04-24 17:20 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 351 -> Procedimiento duplicado en 2025-04-24 17:20 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 352 -> Tipo de documento no coincide con la edad (8 años, 3049 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 352 -> Tipo de documento no coincide con la edad (8 años, 3034 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 352 -> Tipo de documento no coincide con la edad (8 años, 3034 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 352 -> Tipo de documento no coincide con la edad (8 años, 3034 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 352 -> Procedimiento duplicado en 2025-04-15 07:12 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 352 -> Tipo de documento no coincide con la edad (8 años, 3034 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 352 -> Tipo de documento no coincide con la edad (8 años, 3034 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 353 -> Tipo de documento no coincide con la edad (7 años, 2775 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 353 -> Tipo de documento no coincide con la edad (7 años, 2775 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 353 -> Tipo de documento no coincide con la edad (7 años, 2775 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 353 -> Tipo de documento no coincide con la edad (7 años, 2775 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 353 -> Procedimiento duplicado en 2025-04-30 09:07 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 353 -> Tipo de documento no coincide con la edad (7 años, 2775 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 360 -> Tipo de documento no coincide con la edad (19 años, 7117 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 360 -> Tipo de documento no coincide con la edad (19 años, 7121 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 360 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-08 10:35
+Usuario consecutivo 361 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-29 14:58
+Usuario consecutivo 363 -> Procedimiento duplicado en 2025-04-28 16:11 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 365 -> Procedimiento duplicado en 2025-04-29 08:48 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 377 -> Procedimiento duplicado en 2025-04-28 12:20 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 377 -> Procedimiento duplicado en 2025-04-28 12:20 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 379 -> Procedimiento duplicado en 2025-04-29 12:05 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 381 -> Procedimiento duplicado en 2025-04-25 12:45 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 383 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-04 14:14
+Usuario consecutivo 383 -> Procedimiento duplicado en 2025-04-22 11:05 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 17)
+Usuario consecutivo 387 -> Procedimiento duplicado en 2025-04-21 09:37 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 394 -> Procedimiento duplicado en 2025-04-21 11:05 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 394 -> Procedimiento duplicado en 2025-04-21 11:05 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 399 -> Procedimiento duplicado en 2025-04-23 13:47 con código 906249. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 399 -> Procedimiento duplicado en 2025-04-23 13:47 con código 906039. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 8)
+Usuario consecutivo 400 -> Procedimiento duplicado en 2025-04-23 12:08 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 403 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-08 10:38
+Usuario consecutivo 405 -> Procedimiento duplicado en 2025-04-02 11:56 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 406 -> Tipo de documento no coincide con la edad (18 años, 6812 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 406 -> Tipo de documento no coincide con la edad (18 años, 6812 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 408 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 08:51
+Usuario consecutivo 410 -> Procedimiento duplicado en 2025-04-22 10:39 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 410 -> Procedimiento duplicado en 2025-04-22 10:39 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 419 -> Procedimiento duplicado en 2025-04-28 14:23 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 422 -> Procedimiento duplicado en 2025-04-23 06:41 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 422 -> Procedimiento duplicado en 2025-04-23 06:41 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 425 -> Tipo de documento no coincide con la edad (7 años, 2570 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 425 -> Tipo de documento no coincide con la edad (7 años, 2570 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 425 -> Procedimiento duplicado en 2025-04-21 14:06 con código 990204. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 425 -> Tipo de documento no coincide con la edad (7 años, 2570 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 426 -> Procedimiento duplicado en 2025-04-28 17:29 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 428 -> Tipo de documento no coincide con la edad (7 años, 2719 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 428 -> Tipo de documento no coincide con la edad (7 años, 2719 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 429 -> Procedimiento duplicado en 2025-04-08 06:52 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 442 -> Procedimiento duplicado en 2025-04-23 07:35 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 442 -> Procedimiento duplicado en 2025-04-23 07:35 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 444 -> Procedimiento duplicado en 2025-04-25 15:27 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 444 -> Procedimiento duplicado en 2025-04-25 15:27 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 445 -> Procedimiento duplicado en 2025-04-14 13:56 con código 997301. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 450 -> Procedimiento duplicado en 2025-04-29 07:54 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 452 -> Procedimiento duplicado en 2025-04-08 10:17 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 457 -> Procedimiento duplicado en 2025-04-29 11:08 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 459 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-25 09:15
+Usuario consecutivo 462 -> Tipo de documento no coincide con la edad (18 años, 6586 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 462 -> Tipo de documento no coincide con la edad (18 años, 6586 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 462 -> Tipo de documento no coincide con la edad (18 años, 6586 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 468 -> Procedimiento duplicado en 2025-04-15 16:21 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 468 -> Procedimiento duplicado en 2025-04-22 07:50 con código 903895. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 12)
+Usuario consecutivo 470 -> Procedimiento duplicado en 2025-04-03 06:15 con código 990201. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 471 -> Procedimiento duplicado en 2025-04-25 12:01 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 479 -> Procedimiento duplicado en 2025-04-09 20:14 con código 990201. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 480 -> Procedimiento duplicado en 2025-04-23 09:18 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 480 -> Procedimiento duplicado en 2025-04-23 09:18 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 482 -> Procedimiento duplicado en 2025-04-23 08:31 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 482 -> Procedimiento duplicado en 2025-04-23 08:31 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 485 -> Procedimiento duplicado en 2025-04-23 16:18 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 485 -> Procedimiento duplicado en 2025-04-23 16:18 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 492 -> Procedimiento duplicado en 2025-04-22 16:35 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 492 -> Procedimiento duplicado en 2025-04-22 16:35 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 502 -> Procedimiento duplicado en 2025-04-28 11:50 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 504 -> Tipo de documento no coincide con la edad (19 años, 7128 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 504 -> Tipo de documento no coincide con la edad (19 años, 7128 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 505 -> Procedimiento duplicado en 2025-04-16 11:43 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 505 -> Procedimiento duplicado en 2025-04-16 11:43 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 508 -> Procedimiento duplicado en 2025-04-21 09:23 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 508 -> Procedimiento duplicado en 2025-04-21 09:23 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 511 -> Tipo de documento no coincide con la edad (18 años, 6597 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 511 -> Tipo de documento no coincide con la edad (18 años, 6597 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 512 -> Procedimiento duplicado en 2025-04-08 12:10 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 516 -> Procedimiento duplicado en 2025-04-23 16:38 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 522 -> Tipo de documento no coincide con la edad (18 años, 6854 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 522 -> Tipo de documento no coincide con la edad (18 años, 6854 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 525 -> Tipo de documento no coincide con la edad (18 años, 6712 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 525 -> Tipo de documento no coincide con la edad (18 años, 6712 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 529 -> Tipo de documento no coincide con la edad (8 años, 2928 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 529 -> Tipo de documento no coincide con la edad (8 años, 2928 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 530 -> Procedimiento duplicado en 2025-04-25 07:36 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 530 -> Procedimiento duplicado en 2025-04-25 07:36 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 531 -> Consulta Diagnóstico en 2025-04-08 08:21 con código 890308. El diagnóstico principal 'Z630' no corresponde. Se debe mover el relacionado2 ('Z318') a principal.
+Usuario consecutivo 534 -> Procedimiento duplicado en 2025-04-14 10:56 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 534 -> Procedimiento duplicado en 2025-04-14 10:56 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 536 -> Procedimiento duplicado en 2025-04-03 15:33 con código 903895. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 7)
+Usuario consecutivo 539 -> Procedimiento duplicado en 2025-04-29 06:46 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 544 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 10:15
+Usuario consecutivo 544 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-04 14:38
+Usuario consecutivo 544 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-04 15:27
+Usuario consecutivo 544 -> Procedimiento duplicado en 2025-04-04 15:27 con código 907106. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 12)
+Usuario consecutivo 544 -> Procedimiento duplicado en 2025-04-29 14:32 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 18)
+Usuario consecutivo 551 -> Tipo de documento no coincide con la edad (8 años, 2928 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 551 -> Tipo de documento no coincide con la edad (8 años, 2928 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 551 -> Procedimiento duplicado en 2025-04-29 11:34 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 551 -> Tipo de documento no coincide con la edad (8 años, 2928 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 551 -> Tipo de documento no coincide con la edad (8 años, 2928 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 551 -> Tipo de documento no coincide con la edad (8 años, 2928 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 553 -> Tipo de documento no coincide con la edad (18 años, 6782 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 553 -> Tipo de documento no coincide con la edad (18 años, 6782 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 553 -> Tipo de documento no coincide con la edad (18 años, 6782 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 553 -> Tipo de documento no coincide con la edad (18 años, 6782 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 555 -> Procedimiento duplicado en 2025-04-25 12:37 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 555 -> Procedimiento duplicado en 2025-04-25 12:37 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 557 -> Procedimiento duplicado en 2025-04-11 07:41 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 559 -> Procedimiento duplicado en 2025-04-25 14:34 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 559 -> Procedimiento duplicado en 2025-04-25 14:34 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 565 -> Procedimiento duplicado en 2025-04-28 08:48 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 565 -> Procedimiento duplicado en 2025-04-28 08:48 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 573 -> Procedimiento duplicado en 2025-04-11 09:19 con código 892901. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 573 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-16 08:01
+Usuario consecutivo 575 -> Procedimiento duplicado en 2025-04-08 08:39 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 577 -> Procedimiento duplicado en 2025-04-28 14:34 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 580 -> Tipo de documento no coincide con la edad (8 años, 2966 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 580 -> Tipo de documento no coincide con la edad (8 años, 2966 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 580 -> Tipo de documento no coincide con la edad (8 años, 2966 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 580 -> Procedimiento duplicado en 2025-04-23 10:59 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 580 -> Tipo de documento no coincide con la edad (8 años, 2966 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 580 -> Tipo de documento no coincide con la edad (8 años, 2966 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 581 -> Procedimiento duplicado en 2025-04-09 12:16 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 582 -> Procedimiento duplicado en 2025-04-29 08:56 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 585 -> Tipo de documento no coincide con la edad (18 años, 6779 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 585 -> Tipo de documento no coincide con la edad (18 años, 6779 días). Para mayores de 17 años no se debe usar RC/TI/MS; use CC, CE o PA según corresponda.
+Usuario consecutivo 586 -> Procedimiento duplicado en 2025-04-29 09:21 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 589 -> Procedimiento duplicado en 2025-04-28 09:40 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 592 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-04 08:23
+Usuario consecutivo 593 -> Tipo de documento no coincide con la edad (7 años, 2709 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 593 -> Tipo de documento no coincide con la edad (7 años, 2709 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 593 -> Tipo de documento no coincide con la edad (7 años, 2709 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 593 -> Procedimiento duplicado en 2025-04-16 15:29 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 593 -> Tipo de documento no coincide con la edad (7 años, 2709 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 596 -> Tipo de documento no coincide con la edad (8 años, 2951 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 596 -> Tipo de documento no coincide con la edad (8 años, 2951 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 596 -> Tipo de documento no coincide con la edad (8 años, 2951 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 596 -> Tipo de documento no coincide con la edad (8 años, 2951 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 596 -> Tipo de documento no coincide con la edad (8 años, 2951 días). RC aplica para menores de 7 años; si tiene >=7 años use TI o CC según corresponda.
+Usuario consecutivo 598 -> Procedimiento duplicado en 2025-04-16 06:39 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 611 -> Procedimiento duplicado en 2025-04-25 17:53 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 611 -> Procedimiento duplicado en 2025-04-25 17:53 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 613 -> Procedimiento duplicado en 2025-04-29 06:30 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 620 -> Procedimiento duplicado en 2025-04-28 08:29 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 620 -> Procedimiento duplicado en 2025-04-28 08:29 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 623 -> Procedimiento duplicado en 2025-04-14 12:36 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 623 -> Procedimiento duplicado en 2025-04-14 12:36 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 626 -> Diagnóstico Z348 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-24 14:04
+Usuario consecutivo 629 -> Diagnóstico Z300 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-22 15:31
+Usuario consecutivo 633 -> Procedimiento duplicado en 2025-04-11 13:06 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 658 -> Procedimiento duplicado en 2025-04-08 10:53 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 2)
+Usuario consecutivo 658 -> Procedimiento duplicado en 2025-04-23 16:50 con código 990212. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 7)
+Usuario consecutivo 659 -> Procedimiento duplicado en 2025-04-29 16:13 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 3)
+Usuario consecutivo 665 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-07 13:30
+Usuario consecutivo 665 -> Procedimiento duplicado en 2025-04-10 10:46 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 6)
+Usuario consecutivo 665 -> Procedimiento duplicado en 2025-04-10 10:46 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 7)
+Usuario consecutivo 669 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-07 11:48
+Usuario consecutivo 671 -> Procedimiento duplicado en 2025-04-24 07:03 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 4)
+Usuario consecutivo 679 -> Diagnóstico Z308 en Procedimiento corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-03 09:08
+Usuario consecutivo 682 -> Diagnóstico Z318 corresponde a planificación familiar, por lo que la finalidad debe ser '19'. Actualmente: '23'. Fecha atención: 2025-04-08 10:51
+Usuario consecutivo 682 -> Procedimiento duplicado en 2025-04-15 10:32 con código 990203. El paciente tiene otro procedimiento con el mismo código, finalidad y diagnóstico en la misma fecha. (Consecutivo procedimiento: 5)
+Usuario consecutivo 682 -> Diagnóstico Z340 corresponde a prental, por lo que la finalidad debe ser '19'. Actualmente: '12'. Fecha atención: 2025-04-22 15:35
